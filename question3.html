@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>What Boba Are You?</title>
+		 <link rel="stylesheet" href="style.css">
+	</head>
+
+
+	<body>
+		<h3 id = "question">While hanging out with your friends,<br>you guys run into a problem.<br> What do you do?</h3>
+		<img id = "cover" src= "pictures/problem.PNG">
+ 		<button id= "choice1" >Lead them into a solution</button> 
+		<button id= "choice2" >Work together to come up with a solution</button> 
+		<button id= "choice3" >Everyone freezes and the problem gets worse</button> 
+		<button id= "choice4" >Wait for one of them to come up with a solution</button> 
+		<script>
+			var question = 3;
+      document.getElementById("choice1").onclick = function () {
+					localStorage.setItem("Q3", "A");
+          console.log(localStorage.getItem("Q3"));
+			};
+
+			document.getElementById("choice2").onclick = function () {
+					localStorage.setItem("Q3", "B");
+          console.log(localStorage.getItem("Q3"));
+
+			};
+
+			document.getElementById("choice3").onclick = function () {
+					localStorage.setItem("Q3", "C");
+				console.log(localStorage.getItem("Q3"));
+			};
+
+			document.getElementById("choice4").onclick = function () {
+					localStorage.setItem("Q3", "D");
+          console.log(localStorage.getItem("Q3"));
+			};
+		</script>
+		<script src = "script.js"> </script>
+	</body> 
+	
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What Boba Are You?</title>
+    <style>
+        #title {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            color: rgb(90,90,90);
+        }
+        #clicker {
+            margin:0 auto;
+            display:block;
+            font-family: 'Times New Roman', Times, serif;
+            margin-top:5px;
+        }
+        #cover {
+        height:500px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        }
+
+        
+    </style>
+</head>
+
+    
+<body>
+    <h2 id = "title"> </h2>
+    <img id = "cover" src= "pictures/cover.PNG">
+ <button id= "clicker" > Next</button> <!-- have the same thing for the choices/ add other buttons later on, or hide them? -->  
+    
+    
+
+		<script>
+        document.body.style.backgroundColor = "lightpink";
+        document.getElementById("clicker").onclick = function () { //stackoverflow
+			
+            location.href = "question1.html";
+        };
+		</script>
+
+
+</body> 
+</html>

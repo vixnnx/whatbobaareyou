@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>What Boba Are You?</title>
+		 <link rel="stylesheet" href="style.css">
+	</head>
+
+
+	<body>
+		<h3 id = "question">Your friends knock on the door and ask you to hang out. <br> Where are you going?</h3>
+		<img id = "cover" src= "pictures/door.PNG">
+ 		<button id= "choice1" >Ask them to run errands with you</button> 
+		<button id= "choice2" >Park</button> 
+		<button id= "choice3" >Movies</button> 
+		<button id= "choice4" >Stay at your place</button> 
+		<script>
+			var question = 2;
+      document.getElementById("choice1").onclick = function () {
+					localStorage.setItem("Q2", "A");
+          console.log(localStorage.getItem("Q2"));
+			};
+
+			document.getElementById("choice2").onclick = function () {
+					localStorage.setItem("Q2", "B");
+          console.log(localStorage.getItem("Q2"));
+
+			};
+
+			document.getElementById("choice3").onclick = function () {
+					localStorage.setItem("Q2", "C");
+				  console.log(localStorage.getItem("Q2"));
+			};
+
+			document.getElementById("choice4").onclick = function () {
+					localStorage.setItem("Q2", "D");
+          console.log(localStorage.getItem("Q2"));
+			};
+			</script>
+			<script src = "script.js"> </script>
+	</body> 
+	
+</html>

@@ -1,0 +1,40 @@
+#question {
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+	color: rgb(90,90,90);	
+}
+
+#choice1 {
+	margin:0 auto;
+	display:block;
+	font-family: 'Times New Roman', Times, serif;
+	color: rgb(90,90,90);
+}
+#choice2 {
+	margin:0 auto;
+	display:block;
+	margin-top:5px;
+	font-family: 'Times New Roman', Times, serif;
+	color: rgb(90,90,90);
+}
+#choice3 {
+	margin:0 auto;
+	display:block;
+	margin-top:5px;
+	font-family: 'Times New Roman', Times, serif;
+	color: rgb(90,90,90);
+}
+#choice4 {
+	margin:0 auto;
+	display:block;
+	margin-top:5px;
+	font-family: 'Times New Roman', Times, serif;
+	color: rgb(90,90,90);
+}
+img {
+	height:500px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}

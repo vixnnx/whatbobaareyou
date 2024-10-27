@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>What Boba Are You?</title>
+		 <link rel="stylesheet" href="style.css">
+	</head>
+
+
+	<body>
+		<h3 id = "question">Before you go to bed,<br>you see your door wide open.<br> What do you do?</h3>
+		<img id = "cover" src= "pictures/opendoor.PNG">
+ 		<button id= "choice1" >Look around then close the door</button> 
+		<button id= "choice2" >Leave and explore the area</button> 
+		<button id= "choice3" >Lock the door and run under your covers</button> 
+		<button id= "choice4" >Run away from home</button> 
+		<script>
+	    var question = 9; 
+      document.getElementById("choice1").onclick = function () {
+					localStorage.setItem("Q9", "A");
+          console.log("A");
+          console.log(localStorage.getItem("Q9"));
+			};
+
+			document.getElementById("choice2").onclick = function () {
+					localStorage.setItem("Q9", "B");
+          console.log(localStorage.getItem("Q9"));
+
+			};
+
+			document.getElementById("choice3").onclick = function () {
+					localStorage.setItem("Q9", "C");
+				console.log(localStorage.getItem("Q9"));
+			};
+
+			document.getElementById("choice4").onclick = function () {
+					localStorage.setItem("Q9", "D");
+          console.log(localStorage.getItem("Q9"));
+			};
+		</script>
+		<script src = "script.js"> </script>
+	</body> 
+	
+</html>

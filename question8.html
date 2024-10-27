@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>What Boba Are You?</title>
+		 <link rel="stylesheet" href="style.css">
+	</head>
+
+
+	<body>
+		<h3 id = "question">When you get home, you see that your friends wants to plan a trip.<br> What is you role?</h3>
+		<img id = "cover" src= "pictures/groupchat.PNG">
+ 		<button id= "choice1" >Plan it for them</button> 
+		<button id= "choice2" >Help look up information</button> 
+		<button id= "choice3" >Leave them on read</button> 
+		<button id= "choice4" >Let them plan and you just pay them back later</button> 
+		<script>
+	    var question = 8;
+      document.getElementById("choice1").onclick = function () {
+					localStorage.setItem("Q8", "A");
+          console.log("A");
+          console.log(localStorage.getItem("Q8"));
+			};
+
+			document.getElementById("choice2").onclick = function () {
+					localStorage.setItem("Q8", "B");
+          console.log(localStorage.getItem("Q8"));
+
+			};
+
+			document.getElementById("choice3").onclick = function () {
+					localStorage.setItem("Q8", "C");
+				console.log(localStorage.getItem("Q8"));
+			};
+
+			document.getElementById("choice4").onclick = function () {
+					localStorage.setItem("Q8", "D");
+          console.log(localStorage.getItem("Q8"));
+			};
+		</script>
+		<script src = "script.js"> </script>
+	</body> 
+	
+</html>
