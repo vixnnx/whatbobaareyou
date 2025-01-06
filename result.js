@@ -79,11 +79,11 @@ if (temp === "A") {
 	D++;
 }
 
-	if (A > B && A > C && A >D) {
+	if (A > B && A > C && A > D) {
 		document.getElementById("bobaimg").src = "pictures/coffee.PNG";
 		document.getElementById("boba").innerHTML = "Coffee";
 		document.getElementById("desc").innerHTML = "Your friends often call you the mom friend.<br>You are serious, responsible, goal orientated, and doesn't like to take anything from anyone (maybe except your friends).<br>You need to let loose and have more fun";
-  } else if (B > A && B > C && B > C) {
+	} else if (B > A && B > C && B > C) {
 		document.getElementById("bobaimg").src = "pictures/mango.PNG";
 		document.getElementById("boba").innerHTML = "Mango Boba";
 		document.getElementById("desc").innerHTML = "You're silly, playful, and impulsive.<br>You might be considered the glue of your friend group, or sometimes you're not taken seriously.<br>You value teamwork.<br>You have many friends and enjoy being surrounded by people." ;
@@ -108,7 +108,7 @@ if (temp === "A") {
 		document.getElementById("boba").innerHTML = "Honeydew Boba";
 		document.getElementById("desc").innerHTML = "You try to go with the flow, but every once in a while you lock in.<br>You love your friends, but sometimes you need a break.";
 	} else if (B == C) {
-		document.getElementById("bobaimg").src = "pictures/thai.PNG";
+		document.getElementById("bobaimg").src = "pictures/Thai.PNG";
 		document.getElementById("boba").innerHTML = "Thai Tea";
 		document.getElementById("desc").innerHTML = "You like to have fun, but you get tired easily.<br>Sometimes you just need a break.";
 	} else if (B == D) {
@@ -120,3 +120,4 @@ if (temp === "A") {
 		document.getElementById("boba").innerHTML = "Strawberry Boba";
 		document.getElementById("desc").innerHTML = "You cannot be bothered with anything.<br>You want to stop caring, sometimes you're successful.";
 	}
+   
