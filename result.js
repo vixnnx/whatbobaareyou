@@ -82,13 +82,13 @@ if (temp === "A") {
 	if (A > B && A > C && A >D) {
 		document.getElementById("bobaimg").src = "pictures/coffee.png";
 		document.getElementById("boba").innerHTML = "Coffee";
-		document.getElementById("desc").innerHTML = "Your friends often call you the mom friend.<br>You are serious, resposible, goal orientated, and doesn't like to take anything from anyone (maybe except your friends).<br>You need to let loose and have more fun";
+		document.getElementById("desc").innerHTML = "Your friends often call you the mom friend.<br>You are serious, responsible, goal orientated, and doesn't like to take anything from anyone (maybe except your friends).<br>You need to let loose and have more fun";
   }
   
 	if (B > A && B > C && B > C) {
 		document.getElementById("bobaimg").src = "pictures/mango.png";
 		document.getElementById("boba").innerHTML = "Mango Boba";
-		document.getElementById("desc").innerHTML = "You're silly, playful, and impulsive.<br>You might be considered the glue of your friend group, or sometimes you're not taken seriously.<br>You value teamwor.<br>You have many friends and enjoy being surrounded by people." ;
+		document.getElementById("desc").innerHTML = "You're silly, playful, and impulsive.<br>You might be considered the glue of your friend group, or sometimes you're not taken seriously.<br>You value teamwork.<br>You have many friends and enjoy being surrounded by people." ;
 	}
 	if (C > A && C > B && C > D) {
 		document.getElementById("bobaimg").src = "pictures/taro.png";
@@ -98,11 +98,11 @@ if (temp === "A") {
 	if (D > A && D > B && D > C) {
 		document.getElementById("bobaimg").src = "pictures/hottea.png";
 		document.getElementById("boba").innerHTML = "Mango Boba";
-		document.getElementById("desc").innerHTML = "You are a go with the flow type of person.<br>You are willing to sacrfice for your friends.<br>You easily trust in others, but that is not always a good thing.";
+		document.getElementById("desc").innerHTML = "You are a go with the flow type of person.<br>You are willing to sacrifice for your friends.<br>You easily trust in others, but that is not always a good thing.";
 	}
 	if (A == B) {
 		document.getElementById("bobaimg").src = "pictures/brownsugar.png";
-		document.getElementById("boba").innerHTML = "Brown Suagr Boba";
+		document.getElementById("boba").innerHTML = "Brown Sugar Boba";
 		document.getElementById("desc").innerHTML = "You know when to have fun and be silly, and when it's time to be serious.<br>You try to plan ahead, but you always fail and do something impulsive instead.<br>You might not have a lot of friends, but you have good ones.";
 	} if (A == C) { 
 		document.getElementById("bobaimg").src = "pictures/passionfruit.png";
@@ -127,6 +127,6 @@ if (temp === "A") {
 	if (C == D) {
 		document.getElementById("bobaimg").src = "pictures/strawberry.png";
 		document.getElementById("boba").innerHTML = "Strawberry Boba";
-		document.getElementById("desc").innerHTML = "You cannot be bothered with anything.<br>You want to stop caring, sometimes you're sucessful.";
+		document.getElementById("desc").innerHTML = "You cannot be bothered with anything.<br>You want to stop caring, sometimes you're successful.";
 	}
    
